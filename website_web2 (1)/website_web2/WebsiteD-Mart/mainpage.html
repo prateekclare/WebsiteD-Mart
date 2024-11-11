@@ -1,0 +1,500 @@
+<html>
+
+<head>
+	<title>About-US
+	</title>
+
+	<!-- ––––––––––––––––––Body Css–––––––––––––––––––––– -->
+	<link rel="stylesheet" type="text/css" href="CssFiles/cssh-layout.css">
+
+	<!-- ––––––––––––––––––Footer–––––––––––––––––––––– -->
+	<link rel="stylesheet" type="text/css" href="CssFiles/footer_CSS.css">
+
+	<!-- Favicon –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<link rel="icon" type="image/png" href="dmartLogo.png">
+
+	<!-- Star Rating –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<style>
+		.ptext1 {
+
+			background-color: transparent;
+			box-shadow: 0px 3px 20px #000;
+			margin-bottom: 34px;
+
+			position: absolute;
+
+
+			/* To align Text to center In Paralex Images */
+			text-align: center;
+			width: 100%;
+			/* ++++++++++ Prateek +++++++++ */
+
+			color: black;
+			font-size: 1.8vw;
+
+			letter-spacing: 0.5vw;
+			text-transform: uppercase;
+		}
+
+		.borderP {
+			background-color: #111;
+			color: aliceblue;
+
+			padding: 1vw;
+			padding-left: 4vw;
+			padding-right: 4vw;
+
+			box-shadow: 0px 3px 10px rgba(194, 0, 0, 0.6),
+				0px 3px 120px red inset;
+		}
+		}
+	</style>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
+
+
+		.container {
+			/* border: 1px solid black; */
+			max-width: 1000px;
+			margin: 100px auto;
+			display: flex;
+
+			flex-wrap: wrap;
+			justify-content: space-around;
+
+		}
+
+		.card {
+			/* border: 1px solid #000; */
+			position: relative;
+			margin: 20px 0;
+
+			width: 300px;
+			height: 400px;
+
+			background: #fff;
+
+			transform-style: preserve-3d;
+			transform: perspective(2000px);
+			transition: 1s;
+			box-shadow: inset 300px 0 50 px rgba(0, 0, 0, 0.5);
+
+		}
+
+		.card:hover {
+			z-index: 1000;
+
+			transform: perspective(2000px) rotate(-10deg);
+			box-shadow: inset 20px 0 50px rgba(0, 0, 0, .5);
+		}
+
+		.card .imgbox {
+			position: relative;
+			width: 100%;
+			height: 100%;
+
+			/* border: 1px solid #000; */
+
+			box-sizing: border-box;
+			transform-origin: left;
+			z-index: 1;
+			transition: 1s;
+		}
+
+		/*---------Most Important --*/
+		.card:hover .imgbox {
+			transform: rotateY(-135deg);
+		}
+
+		/*-----------*/
+
+		.card .imgbox .img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+
+		.card .details {
+			position: absolute;
+			top: 0;
+			left: 0;
+			box-sizing: border-box;
+			padding: 30px;
+
+
+			font-family: 'Dosis', sans-serif;
+		}
+
+		.card .details h2 {
+			padding-bottom: 12px;
+
+
+		}
+
+		.imgbox .text {
+			position: absolute;
+			z-index: 999;
+			margin: 0 auto;
+			left: -70%;
+			right: 0;
+			color: white;
+			border: 3px solid black;
+			box-shadow: inset 23px 0 50px rgba(150, 0, 0, 0.6);
+			padding: 9px red;
+			top: 6%;
+			/* Adjust this value to move the positioned div up and down */
+			text-align: center;
+			width: 0%;
+			/* Set the width of the positioned div */
+
+
+			border-left: 20px solid rgba(0, 0, 0, 0.6);
+			border-right: 40px solid rgba(0, 0, 0, 0.6);
+			border-top: 1px solid transparent;
+			border-bottom: transparent;
+			*/
+		}
+
+		.imgbox .text h1 {}
+	</style>
+
+</head>
+
+<body>
+	<header>
+		<table class="t1">
+
+			<tr class="t1_tr">
+
+				<td class="logo_h" width=13%><a href="homepage.html"><img src="dmartLogo.png" height="20%" width=auto></a></td>
+
+				<td width=23%><input type="text" placeholder="  Search for products, brands and more...  	:)" size=120 id="sbox"></td>
+				<td>
+					<a href="homepage.html">
+						<input type="button" value="Search" style="width: 100px;margin-left: 8px; height: auto; border-radius: 7px; box-shadow: 0px 0px 5px rgba(143, 0, 0, 0.8);"></a>
+				</td>
+
+				<th width=23%>
+					<font color="black" align="left"><a href="login.html" target="_blank" style="color: black;">Login & Sign Up</a></font>
+				</th>
+				<th width=23%>
+					<font color="black" align="center">
+						<div class="dropdown">
+
+							<span><a href="#" style="color: black;">More</a></span>
+							<div class="dropdown-content">
+								<p id="click_more"><a href="mainpage.html">About Us</a></p>
+								<p id="click_more"><a href="giftCards.html">Gift Cards</a></p>
+								<p id="click_more"><a href="javaScriptValidation.html">Career ?</a></p>
+							</div>
+						</div>
+					</font>
+				</th>
+			</tr>
+		</table>
+	</header>
+	<!-- <table border="2px solid rgba(0,0,0,0.5)" width="100%" bgcolor="#fffdf3" height="6%"> -->
+
+	<table class="t2">
+		<tr class="t2r">
+
+			<th id="1c1" width="12.50%">
+				<div class="dropdown">
+					<span><a href="">Electronics</a></span>
+					<div class="dropdown-content">
+						<p id="click"><a href="Headphones.html">Headphones</a></p>
+						<p id="click"><a href="tv.html">TV</a></p>
+					</div>
+				</div>
+			</th>
+
+
+			<th id="1c" width="12.50%">
+				<div class="dropdown">
+					<span id="menuselect">Mobiles</span>
+
+					<div class="dropdown-content">
+						<p id="click"><a href="High-end.html">High-End</a></p>
+						<p id="click"><a href="midrange.html">Mid-Range</a></p>
+						<p id="click"><a href="low%20budget.html">Low-Budget</a></p>
+					</div>
+				</div>
+			</th>
+
+
+			<th id="1c" width="12.50%">
+				<div class="dropdown">
+					<span id="menuselect"><a href="grocery.html">Grocery</a></span>
+
+					<div class="dropdown-content">
+						<p id="click"><a href="fruitsVEgetable.html">Fruits & Vegetables</a></p>
+						<p id="click"><a href="dairyAndProducts.html">Dairy & Eggs</a></p>
+						<p id="click"><a href="Pantry.html">Pantry</a></p>
+						<p id="click"><a href="beverages.html">Beverages</a></p>
+					</div>
+				</div>
+			</th>
+
+
+
+			<th id="1c" width="12.50%">
+				<div class="dropdown">
+					<span id="menuselect"><a href="laptops.html">Laptops</a></span>
+
+					<div class="dropdown-content">
+						<p id="click"><a href="laptops.html">Apple</a></p>
+						<p id="click"><a href="laptops.html">Dell</a></p>
+						<p id="click"><a href="laptops.html">hp</a></p>
+					</div>
+				</div>
+			</th>
+
+
+
+			<th id="1c" width="12.50%">
+				<div class="dropdown">
+					<span id="menuselect"><a href="watches_main.html">Watches</a></span>
+
+					<div class="dropdown-content">
+						<p id="click"><a href="rolex_main.html">Rolex</a></p>
+						<p id="click"><a href="apple_main.html">Apple</a></p>
+						<p id="click"><a href="watches_main.html">IWC</a></p>
+						<p id="click"><a href="Patek%20Philippe_main.html">Patek Philippe</a></p>
+					</div>
+				</div>
+			</th>
+
+
+			<th id="1c" width="12.50%">
+				<div class="dropdown">
+					<span id="menuselect"><a href="more_items.html">| More Items</a></span>
+
+					<div class="dropdown-content">
+						<p id="click"><a href="HealthAndBeauty.html">Health & Beauty</a></p>
+						<p id="click"><a href="more_items.html">Books</a></p>
+						<p id="click"><a href="more_items.html">Bags</a></p>
+					</div>
+				</div>
+			</th>
+
+			<th id="1c" width="14%"><a href="dailyOffers.html">| Daily Offers</a></th>
+			<!-- ................................Social Media Links Imgs............................. -->
+			<td>
+				<a href="https://www.instagram.com/dmart111retailstore/" target="_blank">
+					<img id="sm" src="images/insta.png" height="25%" width=auto></a></td>
+			<td>
+
+				<a href="https://www.facebook.com/dmart.retailstore.9" target="_blank"><img id="sm" src="images/fb.png" height="25%" width=auto></a></td>
+			<td>
+
+				<a href="" target="_blank"><img id="sm" src="images/gmail.png" height="25%" width=auto></a></td>
+			<td>
+
+				<a href="https://twitter.com/DMart73059423" target="_blank"><img id="sm" src="images/twitter.png" height="25%" width=auto></a> </td>
+			<!-- ..............................============.......................... -->
+			<td></td>
+		</tr>
+	</table>
+	<br>
+	<br>
+	<!-- ..............................About Us.......................... -->
+
+	<table class="t3" width="100%" border="0">
+		<tr>
+			<th width=19% height="14%" colspan="3" id="aboutUs">
+				About Us
+			</th>
+		</tr>
+		<tr>
+
+			<th width=19% height="14%" id="brandname">
+				D mart is a online retail website
+				Started on 3rd March, 2020
+			</th>
+		</tr>
+		<tr>
+
+			<th width=19% height="14%">
+
+				111, abc street, Xyzaa Road
+
+			</th>
+		</tr>
+		<tr>
+			<th width=19% height="14%">
+				Ontario Canada
+			</th>
+
+		</tr>
+	</table>
+	<!-- ..............................N Creators.......................... -->
+	<div class="ptext1">
+		<span class="borderP">
+			Creators
+		</span>
+	</div>
+	<!-- ]]]] ]]]]]]] Flip CArds ]] Starting ]]]] -->
+	<div class="container">
+
+		<div class="card">
+			<div class="imgbox">
+
+				<img src="Images/prateek.jpg">
+
+				<div class="text">
+					<h1>Prateek</h1>
+				</div>
+
+			</div>
+			<div class="details">
+				<h2>Prateek</h2>
+				<p>
+					Student Id : C0 777 350
+					<br>
+					Passionate student at Lambton College pursuing Undergraduate Computer Programming diploma, committed to achieve great in life and create an impact on other lives.
+					A true dreamer, Entrepreneur, and a Graphic Designer.
+
+				</p>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="imgbox">
+
+				<img src="Images/navdeep.jpg">
+				<div class="text" style="top: 70%;">
+					<h1>Navdeep</h1>
+				</div>
+
+			</div>
+			<div class="details">
+				<h2>Navdeep</h2>
+				<p>
+					Student Id : C0 777 350
+					<br>
+					Passionate student at Lambton College pursuing Undergraduate Computer Programming diploma, committed to achieve great in life and create an impact on other lives.
+
+				</p>
+			</div>
+		</div>
+
+	</div>
+	<div class="container">
+
+
+		<div class="card">
+			<div class="imgbox">
+
+				<img src="Images/arshneet.jpeg">
+				<div class="text" style="top: 70%;">
+					<h1>Arshneet</h1>
+				</div>
+
+			</div>
+			<div class="details">
+				<h2>Arshneet</h2>
+				<p>
+					Student Id : C0 777 350
+					<br>
+					Passionate student at Lambton College pursuing Undergraduate Computer Programming diploma, committed to achieve great in life and create an impact on other lives.
+				</p>
+			</div>
+		</div>
+
+
+		<div class="card">
+			<div class="imgbox">
+
+				<img src="Images/suraj.jpg">
+
+				<div class="text" style="top: 70%;">
+					<h1>Suraj</h1>
+				</div>
+
+			</div>
+			<div class="details">
+				<h2>Suraj</h2>
+				<p>
+					Student Id : C0 777 350
+					<br>
+					Passionate student at Lambton College pursuing Undergraduate Computer Programming diploma, committed to achieve great in life and create an impact on other lives.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- ]]]]]]]]]]]]]]] Flip CArds ]] Ending ]]] -->
+	<!--N Creators Ending-->
+</body>
+
+
+<!--______________________________Footer Begins Here_______________________________-->
+<br>
+<footer>
+	<div class="footer-wrapper">
+
+		<div class="single-footer">
+			<h2 id="compNameFooter">DMART</h2>
+			<div><img src="dmartLogoshad.PNG" height="70%" width=auto id="bkg"></div>
+
+
+			<br>
+			<br>
+			<p>
+				<img src="images/insta.png" height="15%" width=auto>
+				<img src="images/fb.png" height="15%" width=auto>
+				<img src="images/gmail.png" height="15%" width=auto>
+				<img src="images/twitter.png" height="15%" width=auto>
+			</p>
+		</div>
+
+		<div class="single-footer">
+			<h2 id="compNameFooter">Navigation</h2>
+			<ul>
+				<li><a href="homepage.html">Home</a></li>
+				<li><a href="mainpage.html">About Us</a></li>
+				<li><a href="javaScriptValidation.html">Career ?</a></li>
+				<li><a href="giftCards.html">Gift Cards</a></li>
+				<br>
+				<li>
+					<p>©2020 | Dmart.com | Inc. or its affiliates.</p>
+					<p>--> Site belongs to dmart <--< /p>
+				</li>
+				<br>
+			</ul>
+		</div>
+
+		<div class="single-footer">
+			<h2 id="compNameFooter">Follow Us ON:</h2>
+			<ul>
+				<li>
+					<a href="https://www.instagram.com/dmart111retailstore/" target="_blank"><img id="sm" src="images/insta.png" height="15%" width=auto></a>
+
+					<a href="https://www.facebook.com/dmart.retailstore.9" target="_blank"><img id="sm" src="images/fb.png" height="15%" width=auto></a>
+
+					<a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><img id="sm" src="images/gmail.png" height="15%" width=auto></a>
+
+					<a href="https://twitter.com/DMart73059423" target="_blank"><img id="sm" src="images/twitter.png" height="15%" width=auto></a>
+				</li>
+			</ul>
+
+			<h2 id="compNameFooter">Accepted Payment Options :</h2>
+			<ul>
+				<li>
+					<img src="images/paypal.png" height="15%" width=auto>
+					<img src="images/Mastercard-logo.png" height="15%" width=auto>
+					<img src="images/am_amex_06.png" height="15%" width=auto>
+					<img src="images/VISa.png" height="15%" width=auto>
+				</li>
+			</ul>
+		</div>
+
+	</div>
+</footer>
+<!--______________________________Footer Ends Here_______________________________--></html>

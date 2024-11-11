@@ -1,0 +1,331 @@
+/*.Navdeep c0768826	Suraj c0777346	Prateek c0777350.*/
+body {
+	background-color: white;
+}
+
+header {
+	margin-top: -8;
+	margin-left: -8;
+	margin-right: -8;
+}
+
+.t1 {
+	border: "0";
+	background-color: white;
+	box-shadow: 5px 5px 20px #000;
+	font-family: "Segoe UI Light";
+}
+
+/* #dfdfdf padding-top: 0.4%;
+			padding-bottom: 0.1%;*/
+.t2 {
+	box-shadow: -5px 5px 110px #000;
+	width: 100%;
+	background-color: rgba(194, 0, 0, 0.6);
+	height: "16%";
+	color: white;
+	font-family: "Calibri";
+
+	/* position: relative; */
+	padding-top: 0.4%;
+	padding-bottom: 0.2%;
+
+	border-style: solid;
+	border-bottom-color: rgba(143, 0, 0, 0.8);
+	border-bottom-width: thin;
+	border-left: transparent;
+	border-right: transparent;
+	border-top: transparent;
+}
+
+span:hover {
+	text-decoration: overline;
+	text-decoration-style: solid;
+}
+
+.checked {
+	color: orange;
+	4
+}
+
+#click {
+	transition: transform 0.4s;
+}
+
+#click:hover {
+	color: cornsilk;
+	transform: scale(1.1);
+	box-shadow: 0px 0px 9px red;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+#click_more:hover {
+	color: black;
+	transform: scale(1.1);
+	box-shadow: inset 0px 0px 9px rgba(0, 0, 0, 0.4);
+	background-color: rgba(218, 255, 250, 0.6);
+}
+
+#sbox {
+	font-family: "Calibri";
+	border-radius: 7px;
+}
+
+#sbox: hover {
+	border: 2px solid white;
+}
+
+#sm {
+	transition: transform 0.2s;
+}
+
+#sm:hover {
+	transform: scale(1.4);
+	box-shadow: 2px 2px 50px rgba(143, 0, 0, 0.8);
+}
+
+.t1_traS {
+	width: 23%;
+}
+
+.logo_h {
+	padding-left: 2%;
+	max-width: 13%;
+	min-width: 6%;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.6);
+	min-width: 120px;
+	box-shadow: 0px 16px 21px rgba(0, 0, 0, 0.6);
+	padding: 9px 16px;
+	color: whitesmoke;
+
+	border-style: solid;
+	border-bottom-color: rgba(143, 0, 0, 0.8);
+	border-bottom-width: 13px;
+	border-left: transparent;
+	border-right: transparent;
+	border-top: transparent;
+
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.t3 {
+	z-index: -1;
+	border: "0";
+	background-color: white;
+	box-shadow: -5px 5px 110px #7b7b7a;
+	font-family: "Segoe UI Light";
+	/* position: relative; */
+	padding-top: 2%;
+	padding-bottom: 2%
+}
+
+/*=======================covid_update=======================*/
+#covid_update {
+	width: 60%;
+	box-shadow: -5px 5px 30px #7b7b7a;
+}
+
+#covid_update:hover {
+	border-left: 20px solid red;
+	border-right: 20px solid red;
+	border-top: transparent;
+	border-bottom: transparent;
+	width: 61%;
+	box-shadow: -5px 5px 50px white;
+}
+
+/*==============================================================*/
+
+
+/*========================= id ="Items_h2"; ============================*/
+#Items_h2 {
+	font-size: 40px;
+	text-decoration: overline;
+	font-family: "Segoe UI Light";
+
+	text-align: center;
+}
+
+#Items_h2:hover {
+	font-size: 41px;
+	text-decoration: overline;
+	text-decoration-color: mediumvioletred;
+	color: mediumvioletred;
+}
+
+/*==============================================================*/
+
+
+/*==============================================================*/
+#showdetails {
+	width: 120px;
+	height: 30px;
+	background-color: rgba(143, 0, 0, 0.8);
+	border-radius: 17px;
+	color: whitesmoke;
+}
+
+/*==============================================================*/
+/*.Navdeep c0768826	Suraj c0777346	Prateek c0777350.*/
+/*==============================================================*/
+
+.t3_price {
+	text-align-last: center;
+	color: black;
+}
+
+#zoom {
+	transition: transform 0.4s;
+}
+
+#zoom:hover {
+	transform: scale(1.1);
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+#banner2a {
+	box-shadow: -5px 5px 20px #7b7b7a;
+}
+
+#banner2 {
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+	transition: transform 0.6s;
+	box-shadow: 0px 5px 20px #7b7b7a;
+}
+
+#banner2:hover {
+	transform: scale(1.1);
+	box-shadow: -5px 5px 51px white;
+	border: 1px black solid;
+}
+
+#iframe {
+	transform: rotate(270deg);
+	height: 13%;
+}
+
+#iframe2 {
+	transform: rotate(90deg);
+	height: 13%;
+}
+/* _________________________________AboutUs______________________________________*/
+
+#aboutUs {
+	color: brown;
+	font-size: 45px;
+	padding-bottom: 2%;
+}
+#aboutUs:hover {
+	text-decoration: underline;
+}
+
+/* _________________________________WATCHES______________________________________*/
+
+#watchpicC1 {
+	transition: transform 0.9s;
+}
+
+#watchpicC1:hover {
+	transform: rotate(4deg);
+	box-shadow: 0px 5px 10px #7b7b7a;
+}
+
+
+#watchpicC2 {
+	transition: transform 0.9s;
+}
+
+#watchpicC2:hover {
+	transform: rotate(-4deg);
+	box-shadow: 0px 5px 10px #7b7b7a;
+}
+
+#apple_1:hover {
+	transform: rotate(3deg);
+	box-shadow: 0px 5px 10px white;
+}
+
+#brandname {
+	text-align: center;
+	color: black;
+	font-size: 20px;
+}
+
+#brandname:hover {
+	text-decoration: underline;
+}
+
+#wbanner {
+	text-align-last: center;
+	display: inline-table;
+}
+
+/* _______________________Rolex______WATCHES_______Main Page__________________________*/
+#wbanner_rolex {
+	display: inline-table;
+	text-align-last: center;
+}
+
+#rolex_banner_main {
+	box-shadow: 0px 5px 10px #7b7b7a;
+	position: relative;
+	z-index: -1;
+}
+
+#rolex_sidebanner {
+	z-index: -1;
+	position: relative;
+}
+
+
+#watch_title {
+	padding-bottom: 20%;
+}
+
+#watch_title_font {
+	font-size: 25px;
+	padding-top: 3px;
+}
+
+#watch_title_font2 {
+	font-size: 25px;
+	padding-top: 3px;
+	text-align-last: right;
+}
+
+#watch_title_font:hover {
+	text-decoration: underline;
+}
+
+#watch_title_font2:hover {
+	text-decoration: underline;
+}
+
+/* APPLE Watches */
+#apple_info {
+	border-top: 1px solid grey;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	padding-top: 23px;
+	text-align: center;
+}
+/*.Navdeep c0768826	Suraj c0777346	Prateek c0777350.*/

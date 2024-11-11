@@ -1,0 +1,340 @@
+<html>
+
+<head>
+	<title>D-Mart
+	</title>
+
+	<!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<link rel="icon" type="image/png" href="dmartLogo.png">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" type="text/css" href="stylelogin.css">
+	<style>
+		body {
+			background-color: white;
+		}
+
+		header {
+			margin-top: -8;
+			margin-left: -8;
+			margin-right: -8;
+		}
+
+		.t1 {
+			border: "0";
+			background-color: white;
+			box-shadow: 5px 5px 20px #000;
+			font-family: "Segoe UI Light";
+		}
+
+		/* #dfdfdf padding-top: 0.4%;
+			padding-bottom: 0.1%;*/
+		.t2 {
+			box-shadow: -5px 5px 110px #000;
+			width: 100%;
+			background-color: rgba(194, 0, 0, 0.6);
+			height: "16%";
+			color: white;
+			font-family: "Calibri";
+
+			/* position: relative; */
+			padding-top: 0.4%;
+			padding-bottom: 0.2%;
+
+			border-style: solid;
+			border-bottom-color: rgba(143, 0, 0, 0.8);
+			border-bottom-width: thin;
+			border-left: transparent;
+			border-right: transparent;
+			border-top: transparent;
+		}
+
+		span:hover {
+			text-decoration: overline;
+			text-decoration-style: solid;
+		}
+
+		.checked {
+			color: orange;
+			4
+		}
+
+		#click {
+			transition: transform 0.4s;
+		}
+
+		#click:hover {
+			color: cornsilk;
+			transform: scale(1.1);
+			box-shadow: 0px 0px 9px red;
+			background-color: rgba(0, 0, 0, 0.4);
+		}
+
+		#click_more:hover {
+			color: black;
+			transform: scale(1.1);
+			box-shadow: inset 0px 0px 9px rgba(0, 0, 0, 0.4);
+			background-color: rgba(218, 255, 250, 0.6);
+		}
+
+		#sbox {
+			font-family: "Calibri";
+			border-radius: 7px;
+		}
+
+		#sbox: hover {
+			border: 2px solid white;
+		}
+
+		#sm {
+			transition: transform 0.2s;
+		}
+
+		#sm:hover {
+			transform: scale(1.4);
+			box-shadow: 12px 12px 10px rgba(143, 0, 0, 0.8);
+		}
+
+		.t1_traS {
+			width: 23%;
+		}
+
+		.logo_h {
+			padding-left: 2%;
+			max-width: 13%;
+			min-width: 6%;
+		}
+
+		.dropdown {
+			position: relative;
+			display: inline-block;
+		}
+
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			background: rgba(0, 0, 0, 0.6);
+			min-width: 120px;
+			box-shadow: 0px 16px 21px rgba(0, 0, 0, 0.6);
+			padding: 9px 16px;
+			color: whitesmoke;
+
+			border-style: solid;
+			border-bottom-color: rgba(143, 0, 0, 0.8);
+			border-bottom-width: 13px;
+			border-left: transparent;
+			border-right: transparent;
+			border-top: transparent;
+
+		}
+
+		.dropdown:hover .dropdown-content {
+			display: block;
+		}
+
+		.t3 {
+			border: "0";
+			background-color: white;
+			box-shadow: -5px 5px 110px #7b7b7a;
+			font-family: "Segoe UI Light";
+			/* position: relative; */
+			padding-top: 2%;
+			padding-bottom: 2%
+		}
+
+		.t3_price {
+			text-align-last: center;
+			color: tan;
+		}
+
+		#zoom {
+			transition: transform 0.4s;
+		}
+
+		#zoom:hover {
+			transform: scale(1.1);
+		}
+
+		a {
+			text-decoration: none;
+			color: white;
+		}
+
+		#banner2a {
+			box-shadow: -5px 5px 20px #7b7b7a;
+		}
+
+		#banner2 {
+			left: 0px;
+			top: 0px;
+			z-index: -1;
+			transition: transform 0.6s;
+			box-shadow: 0px 5px 20px #7b7b7a;
+		}
+
+		#banner2:hover {
+			transform: scale(1.1);
+			box-shadow: -5px 5px 51px white;
+			border: 1px black solid;
+		}
+
+		#iframe {
+			transform: rotate(270deg);
+			height: 13%;
+		}
+
+		#iframe2 {
+			transform: rotate(90deg);
+			height: 13%;
+		}
+
+		/* _________________________________WATCHES______________________________________*/
+
+		#watchpicC1 {
+			transition: transform 0.9s;
+		}
+
+		#watchpicC1:hover {
+			transform: rotate(4deg);
+			box-shadow: 0px 5px 10px #7b7b7a;
+		}
+
+
+		#watchpicC2 {
+			transition: transform 0.9s;
+		}
+
+		#watchpicC2:hover {
+			transform: rotate(-4deg);
+			box-shadow: 0px 5px 10px #7b7b7a;
+		}
+		#apple_1:hover {
+			transform: rotate(3deg);
+			box-shadow: 0px 5px 10px white;
+		}
+
+		#brandname:hover {
+			text-decoration: underline;
+		}
+
+		#wbanner {
+			text-align-last: center;
+			display: inline-table;
+		}
+
+		/* _______________________Rolex______WATCHES_______Main Page__________________________*/
+		#wbanner_rolex {
+			display: inline-table;
+			text-align-last: center;
+		}
+
+		#rolex_banner_main {
+			box-shadow: 0px 5px 10px #7b7b7a;
+			z-index: -1;
+			position: relative;
+		}
+
+		#rolex_sidebanner {
+			z-index: -1;
+			position: relative;
+		}
+
+		
+		#watch_title{
+			padding-bottom: 20%;
+		}
+		#watch_title_font {
+			font-size: 25px;
+			padding-top: 3px;
+		}
+		#watch_title_font2{
+			font-size: 25px;
+			padding-top: 3px;
+			text-align-last: right;
+		}
+
+		#watch_title_font:hover{
+			text-decoration: underline;
+		}
+		#watch_title_font2:hover{
+			text-decoration: underline;
+		}
+		
+		/* APPLE Watches */
+		#apple_info{
+  border-top: 1px solid grey;
+			border-top-left-radius:15px ;
+			border-top-right-radius:15px ;
+			padding-top: 23px;
+			text-align: center;
+}
+	</style>
+
+</head>
+
+<body>
+	<header>
+		<table class="t1">
+
+			<tr class="t1_tr">
+
+				<td class="logo_h" width=13% height=70%><img src="dmartLogo.png" height="20%" width=auto></td>
+
+				<td width=23%><input type="text" placeholder="  Search for products, brands and more...  	:)" size=120 id="sbox"></td>
+				<td><input type="button" value="Search" style="width: 100px;margin-left: 8px; height: auto; border-radius: 7px; box-shadow: 0px 0px 5px rgba(143, 0, 0, 0.8);"></td>
+
+
+	<th width=23%>
+					<font color="black" align="left"><a href="#" target="_blank" style="color: black;">Login & Sign Up</a></font>
+				</th>
+				<th width=23%>
+					<font color="black" align="center">
+						<div class="dropdown">
+
+							<span ><a href="#" target="_blank" style="color: black;">More</a></span>
+							<div class="dropdown-content">
+								<p id="click_more">About Us</p>
+								<p id="click_more">Gift Cards</p>
+								<p id="click_more">Need Help ?</p>
+							</div>
+						</div>
+					</font>
+				</th>
+			</tr>
+		</table>
+	</header>
+	<!-- <table border="2px solid rgba(0,0,0,0.5)" width="100%" bgcolor="#fffdf3" height="6%"> -->
+
+
+     <div class="loginbox">
+         <img src="images/profileicon.jpg" class="avatar">
+         <h1>Login Here</h1>
+         <form>
+             <p>Username</p>
+             <input type="text" name="" placeholder="Enter username">
+             <p>Password</p>
+           <p> <input type="Password" name="user_pass" id="myInput" >
+              <input type="checkbox" onclick="myFunction()" >Show Password</p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
+             <input type="submit" name="" value="Login">
+             <p><a href="Forgot%20Password.html">Forget your password?</a></p>
+             <a href="Create%20a%20new%20account.html">Don't have an account</a>
+             
+             
+         </form>
+     </div>
+     
+    </body>
+</html>
